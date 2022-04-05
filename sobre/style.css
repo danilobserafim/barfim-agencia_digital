@@ -1,0 +1,108 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+}
+nav a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: antiquewhite;
+}
+#sobre{
+    height: 100vh;
+    background: url(../assets/sobre/Sobre.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 32px 64px;
+
+    color: white;
+}
+#sobre h1{
+    font-size: 40px;
+}
+#sobre p{
+    margin-top: 16px;
+    font-size: 24px;
+}
+#sobre article{
+    margin: 128px 0;
+}
+#dual{
+    padding: 64px 0;
+}
+.dual{
+    font-size: 120%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dual h3{
+    margin: 4px 0 16px 0;
+}
+
+#form{
+    padding: 96px;
+}
+#form h1{
+    text-align: center;
+    font-size: 64px;
+    color: #5A5A5A;
+    margin-bottom: 64px;
+
+}
+
+form{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form input{
+    margin: 8px 0;
+    width: 48%;
+    padding: 8px;
+}
+form textarea{
+    padding: 8px;
+    width: 100%;
+}
+form button{
+    background-color: #EB7500;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 48px;
+    margin: 16px 0;  
+    font-size: 1rem;
+}
+form button:hover{
+    filter: brightness(0.9);
+}
+
+footer{
+    background: linear-gradient(to right bottom, #1C1C1C, black);
+    padding: 16px 64px;
+}
+
+
