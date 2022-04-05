@@ -67,6 +67,7 @@ nav a:hover{
     height: 100%;
 }
 .dual article{
+    max-width: 800px;
     padding: 0 128px;
 }
 
