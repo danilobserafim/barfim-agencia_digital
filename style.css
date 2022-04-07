@@ -198,6 +198,12 @@ footer{
     #telefone, #assunto{
         display: none;
     }
+    nav img{
+        cursor: pointer;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
     nav{
         align-items: flex-end;
         position: absolute;
@@ -209,12 +215,8 @@ footer{
         gap: 0px;
 
     }
-    nav img{
-        cursor: pointer;
-        display: block;
-        height: 32px;
-        width: 32px;
-    }
+
+
     nav:hover a{
         font-size: 1.3rem;
         width: 120px;
