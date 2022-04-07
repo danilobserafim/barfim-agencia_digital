@@ -152,6 +152,8 @@ footer{
     }
     #servicos h1{
         font-size: 32px;
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
     }
     #servicos p{
         font-size: 12px;
@@ -160,7 +162,7 @@ footer{
     .dual{
         height: auto;
         display: block;
-        margin: 128px 0;
+        margin: 64px 0;
         padding: 32px 16px;
     }
     .dual article{
