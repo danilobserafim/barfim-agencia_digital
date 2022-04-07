@@ -149,8 +149,8 @@ footer{
     nav img{
         cursor: pointer;
         display: block;
-        height: 32px;
-        width: 32px;
+        height: 24px;
+        width: 24px;
     }
     nav:hover a{
         width: 120px;
@@ -210,7 +210,6 @@ footer{
 @media (max-width:600px) {
     #dual{
     padding: 32px 16px;
-
     }
     .dual{
     margin: 32px 0;

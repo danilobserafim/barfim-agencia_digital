@@ -201,8 +201,8 @@ footer{
     nav img{
         cursor: pointer;
         display: block;
-        height: 32px;
-        width: 32px;
+        height: 24px;
+        width: 24px;
     }
     nav{
         align-items: flex-end;
@@ -239,14 +239,6 @@ footer{
 }
 
 @media (max-width: 600px) {
-    header img{
-        width: 150px;
-    }
-
-    nav img{
-        height: 32px;
-        width: 32px;
-    }
 
     #first p{
         margin: 16px 0 24px 0;

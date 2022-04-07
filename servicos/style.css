@@ -224,8 +224,8 @@ footer{
     nav img{
         cursor: pointer;
         display: block;
-        height: 32px;
-        width: 32px;
+        height: 24px;
+        width: 24px;
     }
     nav:hover a{
         width: 120px;
@@ -250,16 +250,6 @@ footer{
 }
 
 @media (max-width: 600px) {
-    header img{
-        width: 180px;
-    }
-    header article p {
-        text-align: right;
-    }
-    nav img{
-        height: 32px;
-        width: 32px;
-    }
     .dual h2{
         font-size: 1.3rem;
     }
