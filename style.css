@@ -61,7 +61,7 @@ nav a{
     color: white;
 }
 nav a:hover{
-    color: antiquewhite;
+    color: #1FC9FE;
 }
 
 
@@ -230,6 +230,8 @@ footer{
     }
     nav a:hover{
         background-color: #1FC9FE;
+        color: white;
+
     }
     footer{
         padding: 16px 32px;

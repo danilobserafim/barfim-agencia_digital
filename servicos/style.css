@@ -42,7 +42,7 @@ nav a{
     color: white;
 }
 nav a:hover{
-    color: antiquewhite;
+    color: #1FC9FE;
 }
 
 #servicos{
@@ -220,11 +220,13 @@ footer{
         background-color: #00b2e9;
         border-radius: 4px;
         display: block;
+
     }
     nav a{
         display: none;
     }
     nav a:hover{
+        color: white;
         background-color: #1FC9FE;
     }
 
@@ -252,12 +254,9 @@ footer{
         font-size: 24px;
     }
     .articleRight p{
-        padding-left: 15%;
+        text-align: left;
     }
     .dual p{
         font-size: 16px;
-        
     }
-
-    
 }

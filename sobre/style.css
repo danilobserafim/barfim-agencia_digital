@@ -31,7 +31,7 @@ nav a{
     color: white;
 }
 nav a:hover{
-    color: antiquewhite;
+    color: #1FC9FE;
 }
 #sobre{
     background: url(../assets/sobre/Sobre.jpg);
@@ -135,7 +135,6 @@ footer{
         font-size: 12px;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
     }
-
     nav{
         align-items: flex-end;
         position: absolute;
@@ -166,6 +165,8 @@ footer{
     }
     nav a:hover{
         background-color: #1FC9FE;
+        color: white;
+
     }
     
     #dual{
@@ -206,4 +207,28 @@ footer{
         padding: 16px 32px;
     }
 
+}
+@media (max-width:600px) {
+    #dual{
+    padding: 32px 16px;
+
+    }
+    .dual{
+    margin: 32px 0;
+
+    }
+    .dual img{
+        max-width: 80%;
+    }
+    .dual h2{
+        font-size: 1.5rem;
+    }
+    .dual h3{
+        font-size: 1.2rem;
+
+    }
+    .dual p{
+        font-size: 0.9rem;
+
+    }
 }
