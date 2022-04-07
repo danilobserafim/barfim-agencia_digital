@@ -2,6 +2,7 @@
     from{opacity: 0.3;}
     to{opacity: 1;}
 }
+
 *{
     animation: fade 0.5s;
     margin: 0; padding: 0;
@@ -9,6 +10,16 @@
 }
 body{
     font-family: sans-serif;
+}
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #00b2e9;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #ffffff;
 }
 header{
     
@@ -22,8 +33,11 @@ nav{
     gap: 32px;
     align-items: center;
 }
+nav img{
+    display: none;
+}
 nav a{
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     color: white;
 }
@@ -126,4 +140,122 @@ form button:hover{
 footer{
     background: linear-gradient(to right bottom, #1C1C1C, black);
     padding: 16px 64px;
+}
+
+@media (max-width:999px) {
+    header img{
+        width: 200px;
+    }
+    #servicos{
+        padding: 16px 32px;        
+        height: auto;
+    }
+    #servicos h1{
+        font-size: 32px;
+    }
+    #servicos p{
+        font-size: 12px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+    }
+    .dual{
+        height: auto;
+        display: block;
+        margin: 128px 0;
+        padding: 32px 16px;
+    }
+    .dual article{
+        padding: 0;
+    }
+    .articleRight{
+        text-align: right;
+    }
+    .dual img{
+        border-radius: 50%;
+        width: 128px;
+        height: 128px;
+    }
+    .dualReverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    #form{
+        padding:32px;
+        margin: 0;
+        flex-direction: column;
+    }
+    form input{
+        display: block;
+        width: 100%;
+    }
+    form button{
+        width: 100%;
+    }
+    #telefone, #assunto{
+        display: none;
+    }
+    nav{
+        align-items: flex-end;
+        position: absolute;
+        width: 32px;
+        top: 16px;
+        right: 32px;
+        flex-direction: column;
+        border-radius: 10px;
+        gap: 0px;
+
+    }
+    nav img{
+        cursor: pointer;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+    nav:hover a{
+        font-size: 1.3rem;
+        width: 120px;
+        padding: 8px 16px;
+        background-color: #00b2e9;
+        border-radius: 4px;
+        display: block;
+    }
+    nav a{
+        display: none;
+    }
+    nav a:hover{
+        background-color: #1FC9FE;
+    }
+
+    footer{
+        padding: 16px 32px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    header img{
+        width: 180px;
+    }
+    header article p {
+        text-align: right;
+    }
+    nav img{
+        height: 32px;
+        width: 32px;
+    }
+    .dual h2{
+        font-size: 32px;
+    }
+    .dual h3{
+        font-size: 24px;
+    }
+    .articleRight p{
+        padding-left: 15%;
+    }
+    .dual p{
+        font-size: 16px;
+        
+    }
+
+    
 }

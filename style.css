@@ -9,7 +9,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Roboto",sans-serif;
+    display: block;
+    font-family: sans-serif;
 }
 body::-webkit-scrollbar{
     width: 5px;
@@ -24,7 +25,7 @@ body::-webkit-scrollbar-track{
 
 
 #first{
-    padding: 32px 64px;
+    padding: 64px;
     height: 100vh;
     background: url(./assets/home/Home.jpg);
     background-size: cover;
@@ -51,8 +52,11 @@ nav{
     gap: 32px;
     align-items: center;
 }
+nav img{
+    display: none;
+}
 nav a{
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     color: white;
 }
@@ -164,12 +168,20 @@ footer{
     header img{
         width: 200px;
     }
+
     #first{
-        
+        padding: 16px 32px;        
         height: auto;
     }
     #first p{
         font-size: 2rem;
+    }
+    #banner h1{
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+    #banner p{
+        font-size: 16px;
     }
     #form{
         padding:32px;
@@ -186,6 +198,40 @@ footer{
     #telefone, #assunto{
         display: none;
     }
+    nav{
+        align-items: flex-end;
+        position: absolute;
+        width: 32px;
+        top: 16px;
+        right: 32px;
+        flex-direction: column;
+        border-radius: 10px;
+        gap: 0px;
+
+    }
+    nav img{
+        cursor: pointer;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+    nav:hover a{
+        font-size: 1.3rem;
+        width: 120px;
+        padding: 8px 16px;
+        background-color: #00b2e9;
+        border-radius: 4px;
+        display: block;
+    }
+    nav a{
+        display: none;
+    }
+    nav a:hover{
+        background-color: #1FC9FE;
+    }
+    footer{
+        padding: 16px 32px;
+    }
 
 }
 
@@ -193,13 +239,15 @@ footer{
     header img{
         width: 150px;
     }
-    #first{
-        background-position: center;
-        padding: 16px 32px;
+
+    nav img{
+        height: 32px;
+        width: 32px;
     }
+
     #first p{
         margin: 16px 0 24px 0;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .btnDestaque{
         width: 80px;
@@ -207,6 +255,27 @@ footer{
         font-size: 0.7rem;
         padding: 5px;
     }
+
+    #servicos{
+        padding: 48px;
+    }
+    .tag{
+        width: 128px;
+        margin: 8px;
+    }
+    .tag p{
+        font-size: 0.9rem;
+        
+    }
+    .tag img{
+        width: 32px;
+    }
+    #banner{
+        padding: 64px;
+        height: 532px;
+        background-position: right;
+    }
+
 
 
 }

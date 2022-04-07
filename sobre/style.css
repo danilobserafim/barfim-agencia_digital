@@ -22,6 +22,9 @@ nav{
     gap: 32px;
     align-items: center;
 }
+nav img{
+    display: none;
+}
 nav a{
     font-weight: 500;
     text-decoration: none;
@@ -31,7 +34,6 @@ nav a:hover{
     color: antiquewhite;
 }
 #sobre{
-    height: 100vh;
     background: url(../assets/sobre/Sobre.jpg);
     background-size: cover;
     background-position: center;
@@ -53,23 +55,22 @@ nav a:hover{
     padding: 64px 0;
 }
 .dual{
+    margin: 64px 0;
     font-size: 120%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .dual h2{
-    
     color: #00b2e9;
+}
+.dual h3{
+    margin: 4px 0 16px 0;
+    color: #5A5A5A;
 }
 .dual p{
     color: #5A5A5A;
 }
-.dual h3{
-    color: #5A5A5A;
-    margin: 4px 0 16px 0;
-}
-
 #form{
     padding: 96px;
 }
@@ -119,3 +120,90 @@ footer{
 }
 
 
+@media (max-width:999px) {
+    header img{
+        width: 200px;
+    }
+    #sobre{
+        padding: 16px 32px;        
+        height: auto;
+    }
+    #sobre h1{
+        font-size: 32px;
+    }
+    #sobre p{
+        font-size: 12px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+    }
+
+    nav{
+        align-items: flex-end;
+        position: absolute;
+        width: 32px;
+        top: 16px;
+        right: 32px;
+        flex-direction: column;
+        border-radius: 10px;
+        gap: 0px;
+
+    }
+    nav img{
+        cursor: pointer;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+    nav:hover a{
+        font-size: 1.3rem;
+        width: 120px;
+        padding: 8px 16px;
+        background-color: #00b2e9;
+        border-radius: 4px;
+        display: block;
+    }
+    nav a{
+        display: none;
+    }
+    nav a:hover{
+        background-color: #1FC9FE;
+    }
+    
+    #dual{
+        display: flex;
+        flex-direction: column;
+        padding: 64px 32px;
+    }
+    .dual{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .dual img{
+        margin-top: 16px;
+        width: 400px;
+    }
+    .dual:last-child{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        text-align: right;
+
+    }
+    #form{
+        padding:32px;
+        margin: 0;
+        flex-direction: column;
+    }
+    form input{
+        display: block;
+        width: 100%;
+    }
+    form button{
+        width: 100%;
+    }
+    #telefone, #assunto{
+        display: none;
+    }
+    footer{
+        padding: 16px 32px;
+    }
+
+}
