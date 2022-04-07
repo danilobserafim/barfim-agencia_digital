@@ -248,15 +248,17 @@ footer{
         width: 32px;
     }
     .dual h2{
-        font-size: 32px;
+        font-size: 1.5rem;
     }
     .dual h3{
-        font-size: 24px;
+        font-size: 1.2rem;
+
+    }
+    .dual p{
+        font-size: 0.9rem;
+
     }
     .articleRight p{
         text-align: left;
-    }
-    .dual p{
-        font-size: 16px;
     }
 }
