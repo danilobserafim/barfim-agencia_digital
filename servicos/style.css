@@ -272,7 +272,7 @@ footer{
         font-size: 0.9rem;
 
     }
-    .articleRight p{
+    .articleRight p, .articleRight h2, .articleRight h3{
         text-align: left;
     }
 }
