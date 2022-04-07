@@ -58,7 +58,15 @@ nav a:hover{
     justify-content: space-around;
     align-items: center;
 }
+.dual h2{
+    
+    color: #00b2e9;
+}
+.dual p{
+    color: #5A5A5A;
+}
 .dual h3{
+    color: #5A5A5A;
     margin: 4px 0 16px 0;
 }
 

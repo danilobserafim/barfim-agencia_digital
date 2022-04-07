@@ -59,13 +59,16 @@ nav a:hover{
     align-items: center;
 }
 .dual h2{
+    color: #00b2e9;
     font-size: 48px;
 }
 .dual h3{
+    color: #5A5A5A;
     font-size: 32px;
     margin: 4px 0 16px 0;
 }
 .dual p{
+    color: #5A5A5A;
     font-size: 20px;
 }
 .dual img{
