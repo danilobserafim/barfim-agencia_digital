@@ -10,6 +10,16 @@
 body{
     font-family: sans-serif;
 }
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #00b2e9;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #ffffff;
+}
 header{
     
     display: flex;
